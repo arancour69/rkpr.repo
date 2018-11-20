@@ -1,0 +1,14 @@
+<colors>
+	<color name="white">FFF1F1F1</color>
+	<color name="black">FF000000</color>
+	<color name="red">FFCE2221</color>
+	<color name="blue">FFdad856</color>
+	<color name="blue0">FFe2dd52</color>
+	<color name="blue1">FFfefc7a</color>
+	<color name="blue2">FFe4e656</color>
+	<color name="blue3">FFf3f144</color>
+	<color name="purple">FFdad256</color>
+	<color name="purple1">FFbbb919</color>
+	<color name="selected">FFece759</color>
+	<color name="osdinfo">FFd0d0d0</color>
+  </colors>

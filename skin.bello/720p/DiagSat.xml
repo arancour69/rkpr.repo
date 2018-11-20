@@ -1,0 +1,190 @@
+<window>
+	<defaultcontrol always="true">100</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<views>2</views>
+	<controls>
+		<control type="group">
+			<posx>150</posx>
+			<posy>500</posy>
+			<animation type="WindowOpen" reversible="false">
+				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
+				<effect type="fade" start="0" end="100" time="300" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
+				<effect type="fade" start="100" end="0" time="300" />
+			</animation>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>980</width>
+				<height>185</height>
+				<texture border="20">DialogBack.png</texture>
+			</control>			
+		<control type="group">
+			<posx>20</posx>
+			<posy>20</posy>
+			<control type="button" id ="100">
+				<description>SAT A TRACE TV</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>300</width>
+				<height>40</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onleft>103</onleft>
+				<onright>103</onright>
+				<onup>102</onup>
+				<ondown>101</ondown>
+			</control>
+			<control type="button" id ="101">
+				<description>SAT A France TV</description>
+				<posx>0</posx>
+				<posy>50</posy>
+				<width>300</width>
+				<height>40</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onleft>104</onleft>
+				<onright>104</onright>
+				<onup>100</onup>
+				<ondown>102</ondown>
+			</control>
+			<control type="button" id ="102">
+				<description>SAT A MASTV</description>
+				<posx>0</posx>
+				<posy>100</posy>
+				<width>300</width>
+				<height>40</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onleft>105</onleft>
+				<onright>105</onright>
+				<onup>101</onup>
+				<ondown>100</ondown>
+			</control>
+			
+			<control type="button" id ="103">
+				<description>SAT B TRACE TV</description>
+				<posx>320</posx>
+				<posy>0</posy>
+				<width>300</width>
+				<height>40</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onleft>100</onleft>
+				<onright>106</onright>
+				<onup>105</onup>
+				<ondown>104</ondown>
+				<visible>!IsEmpty(Window.Property(DiagSSC))</visible>
+			</control>
+			<control type="button" id ="104">
+				<description>SAT B France TV</description>
+				<posx>320</posx>
+				<posy>50</posy>
+				<width>300</width>
+				<height>40</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onleft>101</onleft>
+				<onright>107</onright>
+				<onup>103</onup>
+				<ondown>105</ondown>
+				<visible>!IsEmpty(Window.Property(DiagSSC))</visible>
+			</control>
+			<control type="button" id ="105">
+				<description>SAT B MASTV</description>
+				<posx>320</posx>
+				<posy>100</posy>
+				<width>300</width>
+				<height>40</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onleft>102</onleft>
+				<onright>108</onright>
+				<onup>104</onup>
+				<ondown>103</ondown>
+				<visible>!IsEmpty(Window.Property(DiagSSC))</visible>
+			</control>
+
+			<control type="button" id ="106">
+				<description>Cable 1</description>
+				<posx>640</posx>
+				<posy>0</posy>
+				<width>300</width>
+				<height>40</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onleft>103</onleft>
+				<onright>100</onright>
+				<onup>108</onup>
+				<ondown>107</ondown>
+			</control>
+			<control type="button" id ="107">
+				<description>Cable 2</description>
+				<posx>640</posx>
+				<posy>50</posy>
+				<width>300</width>
+				<height>40</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onleft>104</onleft>
+				<onright>101</onright>
+				<onup>106</onup>
+				<ondown>108</ondown>
+				<visible>IsEmpty(Window.Property(DiagSSC))</visible>
+			</control>
+			<control type="button" id ="108">
+				<description>EXIT</description>
+				<posx>640</posx>
+				<posy>100</posy>
+				<width>300</width>
+				<height>40</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onleft>105</onleft>
+				<onright>102</onright>
+				<onup>107</onup>
+				<ondown>106</ondown>
+			</control>
+		</control>
+	</control>
+  </controls>
+</window>
+
