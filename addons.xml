@@ -1,5 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.REPO-LOJINK" name="[B]REPO-LOJINK[/B]" version="2.1" provider-name="LOJINK">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">[B]REPO-LOJINK[/B]</summary>
+		<description lang="en">[B]ADDON QUE PERMITE INSTALAR ADDONS REPO-LOJINK E PARCEIROS[/B]</description>
+		<forum>none</forum>
+		<source></source>
+		<website></website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.SkullRock" version="1.0.0" name="[B][COLOR red]SKULL ROCK[/B][/COLOR]" provider-name="FOLIVER FOR KODI">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Skull Rock</summary>
+    <description lang="en">Classics of the world rock.
+All links are found on the internet.
+Suggestions, please send us an e-mail: foliver.kodi@gmail.com
+Thank you !! </description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.skyonplus"
+       name="Sky on Plus"
+       version="1.0.0"
+       provider-name="Kodish MC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sky On Plus</summary>
+    <description lang="en">Filmes do Sky On Plus</description>
+    <platform>all</platform>
+  </extension>
+
+</addon>
+
+<addon
+  id="plugin.video.SportsDevil"
+  version="2018.09.20"
+  name="SportsDevil"
+  provider-name="SportsDevil">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.dateutil" />
+   <import addon="script.module.simplejson" />
+   <import addon="script.module.six" />
+   <import addon="script.module.requests" />
+   <import addon="plugin.video.f4mTester" />
+   <import addon="script.module.slproxy" />
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <!-- <extension point="xbmc.service" library="service/streamlink_proxy.py" /> -->
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportsDevil</summary>
+    <description lang="en">[I]There can only be one.[/I][CR][CR]Unofficial Kodi Addon.</description>
+    <disclaimer lang="en">There can only be one.</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.TopCine"
        name="[COLOR red][B]TopCine[/B][/COLOR]"
        version="1.0.0"
@@ -122,5 +222,131 @@
 		<platform>all</platform>
 	</extension>
 
+</addon>
+
+<addon id="repository.supremacy" name="[COLORaqua]supremacy[/COLOR]" version="2.5" provider-name="supremacy">
+	<extension point="xbmc.addon.repository" name="[COLORaqua]supremacy[/COLOR]">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+	</dir>
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+    </dir>
+		<info compressed="false">http://supremacy.org.uk/zip/plugin/addon.xml</info>
+		<checksum>http://supremacy.org.uk/zip/plugin/addons.xml.md5</checksum>
+		<datadir zip="true">http://supremacy.org.uk/zip/plugin/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>video addon for supremacy</summary>
+		<description>Latest Addon Updates For Supremacy Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.vectordroidrepo" name="VECTORDROID REPO" version="1.0.2" provider-name="VECTORDROID REPO">
+	<extension point="xbmc.addon.repository" name="VECTORDROID REPO">
+		<info compressed="false">http://vectordroid.com/vectordroidrepo/Plugins/addons.xml</info>
+		<checksum>http://vectordroid.com/vectordroidrepo/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://vectordroid.com/vectordroidrepo/Plugins</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>. : The Official Vectordroid Repo : .</summary>
+		<description>. : The Ultimate Plugin Portal : .</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.areswizard" name="[COLOR black].[/COLOR] Ares Wizard" provider-name="AresTeam" version="0.0.69">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.six" version="1.9.0" optional="true"/>
+	<import addon="script.module.arrow" version="0.6.0" optional="true"/>
+	<import addon="script.module.requests" version="2.7.0" optional="true"/>
+  </requires>
+ <extension library="default.py" point="xbmc.python.pluginsource">
+ <provides>executable</provides>
+ </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ares Wizard - Your one stop for Kodi setup + maintenance</summary>
+    <description lang="en">Ares Wizard</description>
+    <platform>all</platform>
+  </extension>
+  <extension point="kodi.context.item">
+	  <menu id="kodi.core.main">
+		<item library="resources/uploadlog.py">
+		  <label>Upload Kodi Log via Ares Project</label>
+		  <visible>true</visible>
+		</item>
+	  </menu>
+	</extension>
+ </addon>
+
+<addon id="script.kcleaner" name="KCleaner" version="2.71" provider-name="Dalibor Lanik"> <!-- Unique ID and name of the addon -->
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/> <!-- Be able to use python in the addon -->
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"> <!-- Extend KODI with a service. Start the addon when starting KODI, and run "default.py" -->
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata"> <!-- Additional addon information -->
+    <platform>all</platform>
+    <website>http://projects.lanik.org/KodiProject_KCleaner.htm</website>
+    <summary lang="en">Clean up temporary files in Kodi.</summary>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=307919</forum>
+    <email>dalibor@lanik.org</email>
+    <description lang="en">Clean up temporary files in Kodi.</description>
+    <news>v2.71 [CR]
+- Bug Fix [CR]
+</news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-02.jpg</screenshot>
+        <screenshot>resources/screenshot-03.jpg</screenshot>
+        <banner>resources/banner.jpg</banner>
+        <logo>resources/logo.png</logo>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.realdebrid" name="RealDebrid" version="0.5" provider-name="ptom">
+	<requires>
+        <import addon="script.module.requests" version="2.3.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+          <item library="addon.py">
+            <label>Play using RealDebrid</label>
+            <visible>Container.Content(episodes) | Container.Content(movies)</visible>
+          </item>
+        </menu>
+      </extension>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<description lang="en">Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.</description>
+        <summary>Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.</summary>
+        <news>v0.5 - added "Play using RealDebrid" to context menu</news>
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
 </addon>
 </addons>
