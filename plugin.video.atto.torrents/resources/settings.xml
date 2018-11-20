@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="ATTO.TV">
+		<setting label="[B][COLOR aqua]WEBSITE: [/B][/COLOR][COLOR gold]https://atto.tv[/COLOR]" type="lsep" />
+		<setting label="[B][COLOR aqua]FORUM: [/B][/COLOR][COLOR gold]https://atto.tv/forum/[/COLOR]" type="lsep" />
+		<setting label="[B][COLOR aqua]LICENSE: [/B][/COLOR][COLOR gold]GNU GENERAL PUBLIC LICENSE. Version 3.[/COLOR]" type="lsep" />
+		<setting label="[B][COLOR aqua]SOURCES: [/B][/COLOR]" type="lsep" />
+		<setting label="[COLOR gold]www.megatorrentshd.com[/COLOR]" type="lsep" />
+		<setting label="[COLOR gold]www.thepiratefilmes.club[/COLOR]" type="lsep" />
+		<setting label="[COLOR gold]www.megafilmestorrent.org[/COLOR]" type="lsep" />
+		<setting label="[COLOR gold]www.seriesfilmestorrent.com[/COLOR]" type="lsep" />
+		<setting label="[COLOR gold]www.torrentseries.net[/COLOR]" type="lsep" />
+		<setting label="[COLOR gold]www.bludv.com[/COLOR]" type="lsep" />
+	</category>
+    <category label="GERENTES">
+	    <setting label="[COLOR aqua]GERENCIADOR DE DOWNLOAD É DETERMINADO:[COLOR blue] (Quasar)[/COLOR]" type="lsep" /> 
+	    <setting type="sep" />
+        <setting label="32054" type="labelenum" id="plugin" default="Quasar" values="Pulsar|Quasar|YATP|KmediaTorrent|Torrenter|XBMCtorrent"/>
+		<setting type="sep" />
+	    <setting label="32057" type="lsep"/>
+	    <setting label="32058" type="lsep"/>
+        <setting type="lsep" />
+    </category>
+</settings>

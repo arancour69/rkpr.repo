@@ -1,0 +1,9 @@
+#
+# Irdeto guessing table
+#
+# format:
+#
+# <byte3>:<byte4-7>:<CAID>:<SID>
+#
+
+

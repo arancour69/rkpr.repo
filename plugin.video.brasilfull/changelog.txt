@@ -1,0 +1,12 @@
+########################################################################
+#								       #
+#		      Atualização 2.6 Brasil Full                      #
+#								       #
+#                     •Novos Icones para os Menus                      #
+#     		      •Troca de Servidor de Hospedagem                 #
+#                     •Melhor Fluidez na Navegação 		       #
+#                     •Correções de Bugs			       #
+#		      •Novas Funções adicionadas		       #
+#		      •Demais Correções Minuciosas		       #
+#								       #
+########################################################################								

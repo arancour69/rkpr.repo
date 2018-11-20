@@ -1,0 +1,27 @@
+
+#EXTINF:-1 tvg-id="" tvg-name="1x1" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS", [COLOR yellow]==== CARCEREIROS ====[/COLOR]
+
+#EXTINF:-1 tvg-id="" tvg-name="1x1" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x1
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10426.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x2" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x2
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10425.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x3" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x3
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10424.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x4" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x4
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10423.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x5" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x5
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10422.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x6" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x6
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10421.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x7" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x7
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10420.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x8" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x8
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10419.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x9" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x9
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10418.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x10" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x10
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10417.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x11" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x11
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10416.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1x12" tvg-logo="https://ia.media-imdb.com/images/M/MV5BMjI3MjI5OTczNV5BMl5BanBnXkFtZTgwODA4MTc5NDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="SERIE - CARCEREIROS",1x12
+http://painel.ebanonet.com.br:25461/movie/Mimi/123456/10415.mp4

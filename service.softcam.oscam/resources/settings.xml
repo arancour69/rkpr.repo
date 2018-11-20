@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="Contador" label="Contador" type="number" visible="false" default="0" />
+	  <setting id="Serial" label="Serial" type="text" visible="false" default="" />
+	  <setting id="KSValidATE" label="KS Valido Até" type="text" visible="false" default="" />
+    
+    <category label="Geral">
+		  <setting label="Log" type="lsep"/>
+		  <setting id="LOG_PADRAO" type="bool" label="Pasta padrão" default="true" />
+		  <setting id="LOG_PASTA" label="Novo caminho:" type="folder" source="auto" option="writeable" visible="eq(-1,false)" />
+		
+		  <setting type="sep" />
+		  <setting label="Acesso WEB" type="lsep"/>
+		  <setting id="WEB_STATUS" label="Ativar" type="bool" default="true" />
+		  <setting id="WEB_USER" label="Usuário:" type="text" default="myuser" visible="eq(-1,true)" />
+		  <setting id="WEB_PWD" label="Senha:" type="text" option="hidden" default="mypass" visible="eq(-2,true)" />
+		  <setting id="WEB_PORT" label="Porta:" type="number" default="8888" visible="eq(-3,true)" />
+    </category>
+    
+    <category label="Notificações">
+		  <setting label="Servidor(es) Pago(s)" type="lsep"/>
+		  <setting id="AVISO_CS" type="bool" label="Status" default="true" />
+    </category>
+	  
+    <category label="Debug">
+		  <setting label="Insere Dados no Log do KODI" type="lsep"/>
+		  <setting id="DEBUG" type="bool" label="Registrar dados de conexão." default="false" />
+    </category>
+</settings>

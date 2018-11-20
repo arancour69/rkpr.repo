@@ -1,0 +1,177 @@
+<window type="dialog">
+	<defaultcontrol always="true">3</defaultcontrol>
+	<coordinates>
+		<system>1</system>
+		<posx>300</posx>
+		<posy>80</posy>
+	</coordinates>
+	<include>dialogeffect</include>
+	<controls>
+		<control type="image">
+			<description>background image</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>680</width>
+			<height>450</height>
+			<texture border="40">DialogBack.png</texture>
+			<visible>![Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)]</visible>
+		</control>
+		<control type="image">
+			<description>background image</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>680</width>
+			<height>450</height>
+			<texture border="40">DialogBack2.png</texture>
+			<visible>Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)</visible>
+		</control>
+		<control type="image">
+			<description>Dialog Header image</description>
+			<posx>40</posx>
+			<posy>16</posy>
+			<width>330</width>
+			<height>40</height>
+			<texture>dialogheader.png</texture>
+		</control>
+		<control type="label" id="1">
+			<description>header label</description>
+			<posx>40</posx>
+			<posy>20</posy>
+			<width>600</width>
+			<height>30</height>
+			<font>font13_title</font>
+			<label>$LOCALIZE[13406]</label>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textcolor>selected</textcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<control type="button">
+			<description>Close Window button</description>
+			<posx>580</posx>
+			<posy>15</posy>
+			<width>64</width>
+			<height>32</height>
+			<label>-</label>
+			<font>-</font>
+			<onclick>PreviousMenu</onclick>
+			<texturefocus>DialogCloseButton-focus.png</texturefocus>
+			<texturenofocus>DialogCloseButton.png</texturenofocus>
+			<onleft>10</onleft>
+			<onright>10</onright>
+			<onup>10</onup>
+			<ondown>10</ondown>
+			<visible>system.getbool(input.enablemouse)</visible>
+		</control>
+		<control type="togglebutton" id="10">
+			<description>Master mode button</description>
+			<width>340</width>
+			<height>40</height>
+			<label>20046</label>
+			<altlabel>20045</altlabel>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textwidth>290</textwidth>
+			<textcolor>grey2</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
+			<texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
+			<usealttexture>!System.IsMaster</usealttexture>
+			<alttexturefocus border="25,5,25,5">ShutdownButtonFocus.png</alttexturefocus>
+			<alttexturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</alttexturenofocus>
+			<onclick>mastermode</onclick>
+			<pulseonselect>no</pulseonselect>
+			<font>font13</font>
+			<visible>true</visible>
+		</control>
+		<control type="list" id="3">
+			<posx>20</posx>
+			<posy>107</posy>
+			<width>620</width>
+			<height>306</height>
+			<onup>3</onup>
+			<ondown>10</ondown>
+			<onleft>5</onleft>
+			<onright>61</onright>
+			<pagecontrol>61</pagecontrol>
+			<scrolltime>200</scrolltime>
+			<animation effect="slide" start="0,0" end="10,0" time="0" condition="!Control.IsVisible(61)">Conditional</animation>
+			<itemlayout height="46" width="350">
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>620</width>
+					<height>40</height>
+					<texture border="5">button-nofocus.png</texture>
+				</control>
+				<control type="label">
+					<posx>20</posx>
+					<posy>0</posy>
+					<width>580</width>
+					<height>40</height>
+					<font>font13</font>
+					<textcolor>grey2</textcolor>
+					<selectedcolor>selected</selectedcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$INFO[ListItem.Label]</label>
+				</control>
+			</itemlayout>
+			<focusedlayout height="46" width="350">
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>620</width>
+					<height>40</height>
+					<texture border="5">button-nofocus.png</texture>
+					<visible>!Control.HasFocus(3)</visible>
+					<include>VisibleFadeEffect</include>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>620</width>
+					<height>40</height>
+					<texture border="5">button-focus2.png</texture>
+					<visible>Control.HasFocus(3)</visible>
+					<include>VisibleFadeEffect</include>
+				</control>
+				<control type="label">
+					<posx>20</posx>
+					<posy>0</posy>
+					<width>580</width>
+					<height>40</height>
+					<font>font13</font>
+					<textcolor>white</textcolor>
+					<selectedcolor>selected</selectedcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$INFO[ListItem.Label]</label>
+				</control>
+			</focusedlayout>
+		</control>
+        <control type="image">
+            <posx>30</posx>
+            <posy>400</posy>
+            <width>24</width>
+            <height>24</height>
+            <aspectratio>stretch</aspectratio>
+            <texture>Red-Ball-icon.png</texture>
+        </control>
+        <control type="label">
+			<description>Refresh</description>
+			<posx>70</posx>
+			<posy>400</posy>
+			<width>270</width>
+			<height>25</height>
+			<label>$LOCALIZE[184]</label>
+			<font>font13_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+		</control>
+
+	</controls>
+</window>
+

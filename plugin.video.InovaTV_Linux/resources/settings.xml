@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    
+    <category label="Controle dos Pais">
+      <setting label="[B][COLOR red]Insira abaixo uma senha para conteúdo adulto proibido para menores de 18 anos:[/B][/COLOR]" type="lsep" />
+      <setting id="control-parental" type="text" label="Senha" default="" option="hidden" enable="!eq(-1,false)"/>
+    </category>
+	
+    <category label="Idioma">
+	    <setting label="[B][COLOR blue]Selecione abaixo seu idioma[/B][/COLOR]" type="lsep" />	
+		<setting id="infoLang" type="select" label="30803" values="bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|pt-BR|ru|sl|sv|tr|zh" default="pt-BR" />
+    </category>
+    <category label="Atualização automática">
+	    <setting label="[B][COLOR blue]Deseja manter atualizações periódicas?[/B][/COLOR]" type="lsep" />
+        <setting label="atualização do addon" type="enum" id="upgrade" default="0" values="Sempre|Nunca"/>		
+    </category>		
+</settings>

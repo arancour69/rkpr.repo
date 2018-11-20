@@ -1,0 +1,8 @@
+# oscam.services generated automatically by Streamboard OSCAM 1.20-unstable_svn SVN r0
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.services.txt
+
+[services1]
+caid                          = 1802
+provid                        = 0000
+srvid                         = 0000
+

@@ -1,0 +1,51 @@
+<addon id=plugin.video.teste name=teste provider-name=housegeek>
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.addon.common" version="2.0.0"/>
+<import addon="plugin.video.youtube" version="5.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">teste</summary>
+<description lang="en">teste mega drive</description>
+<platform>all</platform>
+<forum/>
+<website/>
+</extension>
+</addon>
+<addon id=plugin.video.teste name=teste provider-name=housegeek>
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.addon.common" version="2.0.0"/>
+<import addon="plugin.video.youtube" version="5.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">teste</summary>
+<description lang="en">Addon Teste House Geek</description>
+<platform>all</platform>
+<forum/>
+<website/>
+</extension>
+</addon>
+<addon id=plugin.video.NekoTenshi name=NekoTenshi provider-name=HouseGeek>
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.addon.common" version="2.0.0"/>
+<import addon="plugin.video.youtube" version="5.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">NekoTenshi</summary>
+<description lang="en">Este addon para fans da Neko Tenshi</description>
+<platform>all</platform>
+<forum/>
+<website/>
+</extension>
+</addon>
