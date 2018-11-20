@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.rkprpixel" name="[COLOR red][B]Rkpr[/COLOR] [COLOR white]Pixel repository[/B][/COLOR]" version="1.0" provider-name="Rkpr Pixel">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2" />
+    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="plugin.video.youtube" version="5.2.1" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.livestreamer"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.addon.signals" version="0.0.1"/>
+	<import addon="script.module.youtube.dl"/>
+   
+ 
+  </requires>
+  
+	<extension point="xbmc.addon.repository" name="Rkpr Pixel Add-on Repository">
+		<info compressed="false">https://raw.githubusercontent.com/Robkeeper/repository.rkprpixel/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Robkeeper/repository.rkprpixel/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Robkeeper/repository.rkprpixel/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Rkpr Pixel Addon</summary>
+		<description>Este repositório apenas reune addons e links da internet, o autor não se responsabiliza pelo mau uso dos addon no kodi</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+	
+</addon>
