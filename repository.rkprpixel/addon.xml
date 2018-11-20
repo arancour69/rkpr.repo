@@ -24,9 +24,9 @@
   </requires>
   
 	<extension point="xbmc.addon.repository" name="Rkpr Pixel Add-on Repository">
-		<info compressed="false">https://raw.githubusercontent.com/Robkeeper/repository.rkprpixel/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Robkeeper/repository.rkprpixel/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Robkeeper/repository.rkprpixel/master/</datadir>
+		<info compressed="false">http://raw.github.com/Robkeeper/rkpr.repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/Robkeeper/rkpr.repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/Robkeeper/rkpr.repo/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Rkpr Pixel Addon</summary>
