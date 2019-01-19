@@ -79,7 +79,7 @@ def CHIndex():
     addon_log("CHIndex")
 	#addDir('[COLOR white][B]SITE WWW.VIDATV.XYZ [/COLOR][/B]','100',100,icon,FANART,'','','','')
     getData(off,'')
-    msg2 = "https://pastebin.com/raw/kx01LpNR"
+    msg2 = "https://pastebin.com/raw/tRPXLfEk"
     msg = msg2
     line1 = urllib2.urlopen(msg).read()
     time = 15000 #in miliseconds
@@ -638,10 +638,16 @@ def getItems(items,fanart,dontLink=False):
                             dm = "plugin://plugin.video.dailymotion_com/?mode=playLiveVideo&url=" + i.string
                             url.append(dm)
 							
+                elif len(item('vidatvbn')) >0:
+                    for i in item('vidatvbn'):
+                        if not i.string == None:
+                            vidatvbn = 'http://www.thenightanimes.net/p//video-mp4.php?v='+i.string
+                            url.append(vidatvbn)
+
                 elif len(item('vidatvb')) >0:
                     for i in item('vidatvb'):
                         if not i.string == None:
-                            vidatvb = 'http://www.blogger.com/video-play.mp4?contentId='+i.string
+                            vidatvb = 'http://www.branimes.com/video/video-play.mp4/?contentId='+i.string
                             url.append(vidatvb)
 
                 elif len(item('Link')) >0:
